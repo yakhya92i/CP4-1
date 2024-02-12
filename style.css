@@ -1,0 +1,84 @@
+.navbar{
+    background-color: aquamarine;
+}
+.titre1{
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    padding-left: 30px;
+}
+.lien1{
+   padding-right: 1%;
+}
+.herosec{
+    background-image: url(/platter-2009590_1280.jpg);
+    display: flex;
+    justify-content: center;
+}
+.cnt{
+    color: red;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .item {
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .contact-section {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .contact-form {
+    display: grid;
+    grid-gap: 15px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  footer{
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  .social-icons{
+    margin-top: 10px;
+  }
+  .social-icons a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
